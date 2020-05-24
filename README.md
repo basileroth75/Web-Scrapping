@@ -1,34 +1,23 @@
 # Insta Web Scrapper
 Welcome to the EmailInstaCheck project.
 
-If you like my work and want to support it the best way is by adding a star to this project (top of the page) or you can donate here :)
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/basiler75)
-
-docker build -t webscrapper_data .
-basileroth$ docker run -it -p 8888:8888 webscrapper
-docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chromedriver:3.7 bash
-
+If you like my work and want to support it the best way is by adding a star to this project (top of the page) :)
 
 ## Installation
-Téléchargez la dernière version de python [à partir d'ici](https://www.python.org/downloads/).
+- If you haven’t already downloaded the installer (Docker Desktop Installer.exe), you can get it from [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows/).. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
 
-Téléchargez l'image virtuelle de Chrome que on va utiliser [à partir de ce lien](http://chromedriver.storage.googleapis.com/index.html?path=81.0.4044.69/). Attention : il faut que la version téléchargée soit la même que ta version actuelle de Google Chrome, à trouver dans les paramètres de Chrome.
-Dézipper le fichier et le déposer dans le dossier du projet.
+- When prompted, ensure the Enable Hyper-V Windows Features option is selected on the Configuration page.
 
-## Windows
-Ouvrez le terminal en utilisant <kbd>⌘R</kbd> et rentrez:
+- Follow the instructions on the installation wizard to authorize the installer and proceed with the install.
+
+- When the installation is successful, click Close to complete the installation process.
+
+- Start Docker by cliking on the icon. When the whale icon in the status bar stays steady, Docker Desktop is up-and-running, and is accessible from any terminal window.
+
+- To check that the install has been made correctly, open the terminal by using <kbd>⌘R</kbd> and enter:
 ```bash
-cmd
+docker --version
 ```
-Après que la console se soit ouverte, tapez 
-```bash
-pip3 install openpyxl pandas xlrd selenium
-```
-ou 
-```bash
-pip install openpyxl pandas xlrd selenium
-```
-pour installer les librairies nécessaires.
 
 ## Usage
 Le fichier main.py, accessible dans le dossier /src contient les variables d'environement à modifier.
@@ -43,6 +32,6 @@ Lancer main.py et le résultat sera sauvegardé dans le fichier liste_mail_outpu
 ## Contributing
 Any bugs you find please consider sending them.
 
-## Required libraries
+## Used libraries
 - [Selenium](https://pypi.org/project/selenium/)
 - [Pandas](https://pypi.org/project/pandas/)
