@@ -1,9 +1,13 @@
 # Insta Web Scrapper
 Welcome to the EmailInstaCheck project.
 
-
 If you like my work and want to support it the best way is by adding a star to this project (top of the page) or you can donate here :)
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/basiler75)
+
+docker build -t webscrapper_data .
+basileroth$ docker run -it -p 8888:8888 webscrapper
+docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chromedriver:3.7 bash
+
 
 ## Installation
 Téléchargez la dernière version de python [à partir d'ici](https://www.python.org/downloads/).
