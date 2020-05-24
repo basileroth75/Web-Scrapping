@@ -3,7 +3,7 @@ Welcome to the EmailInstaCheck project.
 
 If you like my work and want to support it the best way is by adding a star to this project (top of the page) :)
 
-## Installation
+## Docker installation
 - If you haven’t already downloaded the installer (Docker Desktop Installer.exe), you can get it from [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows/).. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
 
 - When prompted, ensure the Enable Hyper-V Windows Features option is selected on the Configuration page.
@@ -20,9 +20,9 @@ docker --version
 ```
 
 ## Usage
-- Download this repository fr
+- Download this project with de [download and clone] button on the right top.
 
-- Build the Docker image by entering the following command: 
+- Unzip the folder, start a terminal window from this folder and build the Docker image by entering the following command: 
 ```bash
 docker build -t mail_scrapper .
 ```
