@@ -28,7 +28,7 @@ docker build -t mail_scrapper .
 ```
 - Once the build is finished, run it with this command:
 ```bash
-docker run -it -w /usr/workspace -v $(pwd):/usr/workspace imgscrap
+docker run -it -w /usr/workspace -v $(pwd):/usr/workspace mail_scrapper
 ```
 
 ## Contributing
