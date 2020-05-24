@@ -22,7 +22,7 @@ docker --version
 ## Usage
 - Download this project with de Clone or Download button on the right top.
 
-- Unzip the folder, start a terminal window from this folder and build the Docker image by entering the following command: 
+- Unzip the folder and start a terminal window IN this folder (very important). Build the Docker image by entering the following command: 
 ```bash
 docker build -t mail_scrapper .
 ```
