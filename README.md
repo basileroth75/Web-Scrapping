@@ -6,6 +6,7 @@ If you like my work and want to support it the best way is by adding a star to t
 
 docker build -t webscrapper_data .
 basileroth$ docker run -it -p 8888:8888 webscrapper
+docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chromedriver:3.7 bash
 
 
 ## Installation
