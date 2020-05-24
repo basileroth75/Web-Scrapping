@@ -22,6 +22,15 @@ docker --version
 ## Usage
 - Download this project with de Clone or Download button on the right top.
 
+- Unzip the folder and open the start_insta_scraping.py file. Change the name of the variables if need to : IT IS IMPORTANT THAT THE FILES STAY IN THIS FOLDER 
+```python
+# NAME OF THE XLSX FILE
+name_file = "Liste_mails_retargeting.xlsx"
+# NAME OF THE COLUMN WHERE THE EMAILS ARE (IN THE XLSX FILE)
+name_column_mail = "Mail"
+```
+
+
 - Unzip the folder and start a terminal window IN this folder (very important). Build the Docker image by entering the following command: 
 ```bash
 docker build -t mail_scrapper .
