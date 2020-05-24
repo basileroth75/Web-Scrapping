@@ -20,14 +20,16 @@ docker --version
 ```
 
 ## Usage
-Le fichier main.py, accessible dans le dossier /src contient les variables d'environement à modifier.
-```python
-file_path = nom du fichier à traiter
-chromedriver_path = où est enregistré chromdriver.exe
-name_column_mail = nom de la colonne des mails
-name_column_status = nom de la colonne du statut
+- Download this repository fr
+
+- Build the Docker image by entering the following command: 
+```bash
+docker build -t mail_scrapper .
 ```
-Lancer main.py et le résultat sera sauvegardé dans le fichier liste_mail_output.xlsx dans le dossier /output.
+- Once the build is finished, run it with this command:
+```bash
+docker run -it -w /usr/workspace -v $(pwd):/usr/workspace imgscrap
+```
 
 ## Contributing
 Any bugs you find please consider sending them.
