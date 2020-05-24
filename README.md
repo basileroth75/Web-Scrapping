@@ -20,7 +20,7 @@ docker --version
 ```
 
 ## Usage
-- Download this project with de [download and clone] button on the right top.
+- Download this project with de Clone or Download button on the right top.
 
 - Unzip the folder, start a terminal window from this folder and build the Docker image by entering the following command: 
 ```bash
