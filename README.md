@@ -1,7 +1,7 @@
 # Insta Web Scrapper
 Welcome to the EmailInstaCheck project.
 
-If you like my work and want to support it the best way is by adding a star to this project (top of the page) :)
+If you like my work and want to support it the best way is by adding a star to this project (top of the page). :)
 
 ## Docker installation
 - If you haven’t already downloaded the installer (Docker Desktop Installer.exe), you can get it from [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows/).. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
